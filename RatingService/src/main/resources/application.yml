@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: RATING-SERVICE
+  cloud:
+    config:
+      import: optional:configserver:http://localhost:8085
+    data:
+      mongodb:
+        uri: mongodb://localhost:27017
+        database: microservices

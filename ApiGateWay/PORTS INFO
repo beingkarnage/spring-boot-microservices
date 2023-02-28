@@ -1,0 +1,7 @@
+# ALL PORTS INFO ARE MAINTAINED HERE
+ApiGateWay : 8080
+HotelService : 8081
+RatingService : 8082
+ServiceRegistry : 8761
+UserService : 8084
+ConfigServer : 8085
